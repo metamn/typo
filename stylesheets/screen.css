@@ -78,7 +78,74 @@ body {
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 16, ../sass/typography.scss */
+/* line 22, ../sass/typography.scss */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-size: 2em;
+  padding: 1.25em 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 30, ../sass/typography.scss */
+body h4, body h5, body h6 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+/* line 37, ../sass/typography.scss */
+body h1, body h4 {
+  font-weight: bold;
+}
+/* line 41, ../sass/typography.scss */
+body h2, body h5 {
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 46, ../sass/typography.scss */
+body h3, body h6 {
+  font-style: italic;
+}
+/* line 57, ../sass/typography.scss */
+body p + p {
+  margin-top: 1.25em;
+}
+/* line 62, ../sass/typography.scss */
+body q, body blockquote {
+  margin: 1.25em;
+  border-left: 1px dotted;
+  padding-left: 1.25em;
+  font-style: italic;
+}
+/* line 70, ../sass/typography.scss */
+body address {
+  font-variant: small-caps;
+}
+/* line 78, ../sass/typography.scss */
+body ul, body menu, body dir, body ol {
+  margin: 1.25em 0;
+  list-style-type: none;
+}
+/* line 82, ../sass/typography.scss */
+body ul li, body menu li, body dir li, body ol li {
+  margin-left: 1.25em;
+  border-bottom: 1px dotted;
+  padding: 0.625em 0;
+}
+/* line 89, ../sass/typography.scss */
+body ol {
+  list-style-type: decimal;
+}
+/* line 93, ../sass/typography.scss */
+body dl {
+  margin: 1.25em 0;
+}
+/* line 96, ../sass/typography.scss */
+body dl dt {
+  font-weight: bold;
+}
+/* line 99, ../sass/typography.scss */
+body dl dd {
+  margin-left: 1.25em;
+}
+/* line 106, ../sass/typography.scss */
 body .container {
   width: 98%;
   margin: 0 auto;
