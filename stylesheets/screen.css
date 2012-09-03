@@ -141,6 +141,6 @@ body dl dd {
 }
 /* line 100, ../sass/typography.scss */
 body .container {
-  width: 98%;
+  width: 50%;
   margin: 0 auto;
 }
