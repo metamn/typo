@@ -120,32 +120,26 @@ body address {
 }
 /* line 78, ../sass/typography.scss */
 body ul, body menu, body dir, body ol {
-  margin: 1.25em 0;
-  list-style-type: none;
+  margin: 1.25em;
+  list-style-type: square;
 }
-/* line 82, ../sass/typography.scss */
-body ul li, body menu li, body dir li, body ol li {
-  margin-left: 1.25em;
-  border-bottom: 1px dotted;
-  padding: 0.625em 0;
-}
-/* line 89, ../sass/typography.scss */
+/* line 83, ../sass/typography.scss */
 body ol {
   list-style-type: decimal;
 }
-/* line 93, ../sass/typography.scss */
+/* line 87, ../sass/typography.scss */
 body dl {
   margin: 1.25em 0;
 }
-/* line 96, ../sass/typography.scss */
+/* line 90, ../sass/typography.scss */
 body dl dt {
   font-weight: bold;
 }
-/* line 99, ../sass/typography.scss */
+/* line 93, ../sass/typography.scss */
 body dl dd {
   margin-left: 1.25em;
 }
-/* line 106, ../sass/typography.scss */
+/* line 100, ../sass/typography.scss */
 body .container {
   width: 98%;
   margin: 0 auto;

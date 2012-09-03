@@ -76,14 +76,8 @@ body {
 	// -----------------------------------------------
 	
 	ul, menu, dir, ol {
-		margin: $pad 0;
-		list-style-type: none;
-		
-		li {
-			margin-left: $pad;
-			border-bottom: 1px dotted;
-			padding: $pad2 0;
-		}
+		margin: $pad;
+		list-style-type: square;
 	}
 	
 	ol {
