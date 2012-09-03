@@ -1,0 +1,21 @@
+body {
+	// Use Serif for long text
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	
+	// Use Sans serif for non-long text
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	
+	
+	// Set vertical rhythm
+	// - from http://lamb.cc/typograph/ 
+	font-size: 100%;
+	line-height: 1.25;
+
+	.container {
+		width: 98%;
+		margin: 0 auto;
+	}
+
+}
