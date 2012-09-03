@@ -103,6 +103,37 @@ body {
 				margin-left: $pad;
 			}
 		}
+		
+		
+		// Tables
+		// -----------------------------------------------
+		
+		table {
+			margin: $pad 0;
+			
+			thead {
+				tr {
+					td {
+						font-weight: bold;
+					}
+				}
+			}
+			
+			tbody {
+				border-top: 1px dotted;
+				border-bottom: 1px dotted;
+			}
+			
+			td, th, tr {
+  			text-align: left;
+  			vertical-align: top;
+			}
+			
+			td {
+				padding: $pad;
+			}
+		}
+		
 	
 	}
 }
