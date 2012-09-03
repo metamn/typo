@@ -74,73 +74,70 @@ body {
   font-size: 100%;
   line-height: 1.25;
 }
-/* line 6, ../sass/typography.scss */
-body h1, body h2, body h3, body h4, body h5, body h6 {
+/* line 10, ../sass/typography.scss */
+body .container {
+  width: 50%;
+  margin: 0 auto;
+}
+/* line 15, ../sass/typography.scss */
+body .container h1, body .container h2, body .container h3, body .container h4, body .container h5, body .container h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 22, ../sass/typography.scss */
-body h1, body h2, body h3, body h4, body h5, body h6 {
+/* line 28, ../sass/typography.scss */
+body .container h1, body .container h2, body .container h3, body .container h4, body .container h5, body .container h6 {
   font-size: 2em;
   padding: 1.25em 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 30, ../sass/typography.scss */
-body h4, body h5, body h6 {
+/* line 36, ../sass/typography.scss */
+body .container h4, body .container h5, body .container h6 {
   font-size: 1em;
   text-transform: uppercase;
 }
-/* line 37, ../sass/typography.scss */
-body h1, body h4 {
+/* line 43, ../sass/typography.scss */
+body .container h1, body .container h4 {
   font-weight: bold;
 }
-/* line 41, ../sass/typography.scss */
-body h2, body h5 {
+/* line 47, ../sass/typography.scss */
+body .container h2, body .container h5 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 46, ../sass/typography.scss */
-body h3, body h6 {
-  font-style: italic;
-}
-/* line 57, ../sass/typography.scss */
-body p + p {
+/* line 63, ../sass/typography.scss */
+body .container p + p {
   margin-top: 1.25em;
 }
-/* line 62, ../sass/typography.scss */
-body q, body blockquote {
+/* line 68, ../sass/typography.scss */
+body .container q, body .container blockquote {
   margin: 1.25em;
   border-left: 1px dotted;
   padding-left: 1.25em;
   font-style: italic;
+  font-size: larger;
 }
-/* line 70, ../sass/typography.scss */
-body address {
+/* line 79, ../sass/typography.scss */
+body .container address {
   font-variant: small-caps;
 }
-/* line 78, ../sass/typography.scss */
-body ul, body menu, body dir, body ol {
+/* line 87, ../sass/typography.scss */
+body .container ul, body .container menu, body .container dir, body .container ol {
   margin: 1.25em;
   list-style-type: square;
 }
-/* line 83, ../sass/typography.scss */
-body ol {
+/* line 92, ../sass/typography.scss */
+body .container ol {
   list-style-type: decimal;
 }
-/* line 87, ../sass/typography.scss */
-body dl {
+/* line 96, ../sass/typography.scss */
+body .container dl {
   margin: 1.25em 0;
 }
-/* line 90, ../sass/typography.scss */
-body dl dt {
+/* line 99, ../sass/typography.scss */
+body .container dl dt {
   font-weight: bold;
 }
-/* line 93, ../sass/typography.scss */
-body dl dd {
+/* line 102, ../sass/typography.scss */
+body .container dl dd {
   margin-left: 1.25em;
-}
-/* line 100, ../sass/typography.scss */
-body .container {
-  width: 50%;
-  margin: 0 auto;
 }
