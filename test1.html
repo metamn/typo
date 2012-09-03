@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Tests for HTML elements</title>
+<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
+<body>
+<div class="container">
+
+<h1 id="h1">Simple test cases for HTML elements</h1>
+
+<h2>Links (<code>a</code>)</h2>
+
+<p>A link to the <a href="#bottom">bottom of the page</a>.</p>
+<p>A link to <a href="http://www.google.com">Google</a>. NB: Once you've visited one, does a screen reader announce that?</p>
+
+<h3>Heading with a link in it: <a href="http://www.google.com/">Google</a></h3>
+
+<p>Is the above link to google announced, or does the heading get in the way?</p>
+
+<h2>Abbreviations and Acronyms (<code>abbr</code> and <code>acronym</code>)</h2>
+
+<p>The next item is an abbreviation, <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+<p>The next item is an acronym, <acronym title="National Aeronautics and Space Administration">NASA</acronym>.</p>
+<p>Whilst were at it, how about a title on a span element? The last word has a title of hello: <span title="hello">span</span>.</p>
+
+<h2><code>Address</code></h2>
+
+<p>The following block of text is in an address element:</p>
+<address>21 Nice street, beverly hills, 90210</address>
+
+<h2>Pre-formatted text block (<code>pre</code>)</h2>
+
+<p>The following block of text is in a <code>pre</code>:</p>
+<pre>getElementById("test");</pre>
+
+<h2>Inline elements (<code>b</code>, <code>i</code>, <code>strong</code>, <code>em</code>)</h2>
+
+<p>Can <b>you</b> <i>tell</i> <strong>which</strong> <em>items</em> in this sentence have bold, italics, strong or emphasis on?</p>
+<p>It can be quite difficult, this may help: <span>the</span> <span>the</span> <em>the</em> <span>the</span>.
+
+<p>How about if the next name is a cite? <cite>Alastair Campbell</cite> compared to Alastair Campbell. Or that this is a quote: <q>To be or not to be</q>.</p>
+
+<p>Can you tell if this is <code>code</code>, compared to code. That this is <del>deleted</del>, that this is <ins>inserted</ins>, that this is a <dfn>definition</dfn>, or that this is <kbd>Keyboard text</kbd>, compared to keyboard text, <tt>teletype text</tt>, a <var>variable</var>.</p>
+
+<p>Can you tell if <span style="color: red;">this bit of text is red</span>?</p>
+
+<p>The next item is sort of an equation: E = MC<sup>2</sup>, but not sure what this sub would mean: E= MC<sub>2</sub>.</p>
+
+<h2><code>Blockquote</code></h2>
+<p>The following is a quote includes a title and cite attribute, and of course includes a paragraph for validity.</p>
+	
+<blockquote class="linked" title="Iceweb 2006 notes, Joe Clark" cite="http://joeclark.org/access/research/ice//iceweb2006-notes.html"><p>
+this Ajax application is usable by screen-reader users some of the time. They aren't totally shut out, but it isn't totally easy for them, either.
+</p></blockquote>
+
+<h2>Line breaks (<code>br</code>)</h2>
+<p>Can you tell<br> where the<br> line breaks<br> are in this paragraph? I'm not sure if it particularly matters.</p>
+
+<h2>Lists</h2>
+
+<p>There are several types and complexities of list, we'll start simple and get more complex.</p>
+
+<h3>Unordered list, simple</h3>
+
+<ul>
+	<li>Item</li>
+	<li>Item</li>
+	<li>Item</li>
+</ul>
+
+<h3>Ordered list, simple</h3>
+
+<ol>
+	<li>Item</li>
+	<li>Item</li>
+	<li>Item</li>
+</ol>
+
+<h3>Definition list, simple</h3>
+
+<dl>
+	<dt>term</dt>
+	<dd>definition</dd>
+	<dt>second term</dt>
+	<dd>second definition</dd>
+</dl>
+
+<h3>Nested unordered list</h3>
+
+<ul>
+	<li>Item
+		<ul>
+			<li>Sub-Item</li>
+			<li>Sub-Item</li>
+		</ul>	
+	</li>
+	<li>Item</li>
+</ul>
+
+<h3>Nested ordered list</h3>
+
+<ol>
+	<li>Item
+		<ol>
+			<li>Sub-Item</li>
+			<li>Sub-Item</li>
+		</ol>	
+	</li>
+	<li>Item</li>
+</ol>
+
+
+<h3>Nested ordered list within unordered list</h3>
+
+<ul>
+	<li>Item
+		<ol>
+			<li>Sub-Item</li>
+			<li>Sub-Item</li>
+		</ol>	
+	</li>
+	<li>Item</li>
+</ul>
+
+
+<h2>Forms</h2>
+
+<form action="#">
+	<fieldset>
+		<legend>Legend</legend>
+		<p><label for="input1">Label:</label> <input type="text" name="input1" value="" id="input1"></p>
+		<p><input type="submit" value="Send" id="submit"></p>
+		<p><label for="select">Select label:</label> <select id="select">
+			<option value="1">option 1</option>
+			<option value="2">option 2</option>			
+		</select></p>
+		<p><label for="textarea-blank">Blank text area:</label> <textarea rows="4" cols="15" id="textarea-blank"></textarea></p>
+		<p><label for="textarea-filled">Blank text area:</label> <textarea rows="4" cols="15" id="textarea-filled">Some test text. (Will need attributes.)</textarea></p>
+		<button>button</button>
+	</fieldset>
+	
+	<p>
+		<label for="listbox2">Choose multiple options</label>
+		<select multiple="multiple" name="listbox2" id="listbox2">
+			<option>option 1</option>
+			<option>option 2</option>
+			<option>option 3</option>
+		</select>
+	<button>Go</button></p>
+</form>
+
+<h2>Tables</h2>
+
+<table border="1" summary="summary for this table.">
+	<caption>Caption for this table</caption>
+	<thead>
+		<tr>
+			<th>Heading one</th>
+		 	<th>Heading two</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td>footer one</td>
+			<td>footer two</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<td>Cell one</td>
+			<td>Cell two</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Frames</h2>
+
+<p>Not going to test framesets, but an iframe is included below:</p>
+
+<iframe src="/" title="Test iframe, if you can hear this it's successful." width="300" height="100">
+<!-- Alternate content for non-supporting browsers -->
+<p>Test content for non-iframe compatible browsers.</p>
+</iframe>
+
+<h2>Headings</h2>
+
+<p>You should have worked it out by now, but here are a couple more headings:</p>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+
+<h2>Horizontal rule (<code>hr</code>)</h2>
+
+<p>Can you tell there is a horizontal rule after this sentence?</p>
+<hr>
+<p>This is after the horizontal rule.</p>
+
+<h2>Images</h2>
+
+<p>There are quite a few connotations, with the alt, title and links, so there are a few versions. I'll use the same image throughout, the Voiceover logo.</p>
+
+<p>Image without alternative: <img src="/wp-content/uploads/2006/08/voiceover.png">.</p>
+<p>Image with only alternative: <img src="/wp-content/uploads/2006/08/voiceover.png" alt="Voiceover logo">.</p>
+<p>Image without alternative, with title: <img src="/wp-content/uploads/2006/08/voiceover.png" title="Voiceover logo">.</p>
+<p>Image with alternative and title: <img src="/wp-content/uploads/2006/08/voiceover.png" alt="Voiceover logo alt." title="voiceover logo title.">.</p>
+
+<h2>Object</h2>
+
+<p>***</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p id="bottom">The bottom of the page.</p>
+</div>
+</body>
+</html>
