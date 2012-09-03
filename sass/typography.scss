@@ -44,13 +44,14 @@ body {
 			font-weight: bold;
 		}
 		
-		h2, h5 {
+		h2 {
 			font-weight: bold;
 			font-style: italic;
 		}
 		
-		h3, h6 {
-			// font-style: italic;
+		h6 {
+			text-transform: none;
+			font-variant: small-caps;
 		}
 		
 		

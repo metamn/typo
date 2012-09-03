@@ -100,15 +100,20 @@ body .container h1, body .container h4 {
   font-weight: bold;
 }
 /* line 47, ../sass/typography.scss */
-body .container h2, body .container h5 {
+body .container h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 63, ../sass/typography.scss */
+/* line 52, ../sass/typography.scss */
+body .container h6 {
+  text-transform: none;
+  font-variant: small-caps;
+}
+/* line 64, ../sass/typography.scss */
 body .container p + p {
   margin-top: 1.25em;
 }
-/* line 68, ../sass/typography.scss */
+/* line 69, ../sass/typography.scss */
 body .container q, body .container blockquote {
   margin: 1.25em;
   border-left: 1px dotted;
@@ -116,51 +121,51 @@ body .container q, body .container blockquote {
   font-style: italic;
   font-size: larger;
 }
-/* line 79, ../sass/typography.scss */
+/* line 80, ../sass/typography.scss */
 body .container address {
   font-variant: small-caps;
 }
-/* line 87, ../sass/typography.scss */
+/* line 88, ../sass/typography.scss */
 body .container ul, body .container menu, body .container dir, body .container ol {
   margin: 1.25em;
   list-style-type: square;
 }
-/* line 92, ../sass/typography.scss */
+/* line 93, ../sass/typography.scss */
 body .container ol {
   list-style-type: decimal;
 }
-/* line 96, ../sass/typography.scss */
+/* line 97, ../sass/typography.scss */
 body .container dl {
   margin: 1.25em 0;
 }
-/* line 99, ../sass/typography.scss */
+/* line 100, ../sass/typography.scss */
 body .container dl dt {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 103, ../sass/typography.scss */
+/* line 104, ../sass/typography.scss */
 body .container dl dd {
   margin: 0.625em 1.25em 1.875em;
 }
-/* line 112, ../sass/typography.scss */
+/* line 113, ../sass/typography.scss */
 body .container table {
   margin: 1.25em 0;
 }
-/* line 117, ../sass/typography.scss */
+/* line 118, ../sass/typography.scss */
 body .container table thead tr td {
   font-weight: bold;
 }
-/* line 123, ../sass/typography.scss */
+/* line 124, ../sass/typography.scss */
 body .container table tbody {
   border-top: 1px dotted;
   border-bottom: 1px dotted;
 }
-/* line 128, ../sass/typography.scss */
+/* line 129, ../sass/typography.scss */
 body .container table td, body .container table th, body .container table tr {
   text-align: left;
   vertical-align: top;
 }
-/* line 133, ../sass/typography.scss */
+/* line 134, ../sass/typography.scss */
 body .container table td {
   padding: 1.25em;
 }
