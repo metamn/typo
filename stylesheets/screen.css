@@ -136,30 +136,31 @@ body .container dl {
 /* line 99, ../sass/typography.scss */
 body .container dl dt {
   font-weight: bold;
+  text-transform: uppercase;
 }
-/* line 102, ../sass/typography.scss */
+/* line 103, ../sass/typography.scss */
 body .container dl dd {
-  margin-left: 1.25em;
+  margin: 0.625em 1.25em 1.875em;
 }
-/* line 111, ../sass/typography.scss */
+/* line 112, ../sass/typography.scss */
 body .container table {
   margin: 1.25em 0;
 }
-/* line 116, ../sass/typography.scss */
+/* line 117, ../sass/typography.scss */
 body .container table thead tr td {
   font-weight: bold;
 }
-/* line 122, ../sass/typography.scss */
+/* line 123, ../sass/typography.scss */
 body .container table tbody {
   border-top: 1px dotted;
   border-bottom: 1px dotted;
 }
-/* line 127, ../sass/typography.scss */
+/* line 128, ../sass/typography.scss */
 body .container table td, body .container table th, body .container table tr {
   text-align: left;
   vertical-align: top;
 }
-/* line 132, ../sass/typography.scss */
+/* line 133, ../sass/typography.scss */
 body .container table td {
   padding: 1.25em;
 }

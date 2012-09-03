@@ -98,9 +98,10 @@ body {
 			
 			dt {
 				font-weight: bold;
+				text-transform: uppercase;
 			}
 			dd {
-				margin-left: $pad;
+				margin: $pad2 $pad ($pad + $pad2);
 			}
 		}
 		
